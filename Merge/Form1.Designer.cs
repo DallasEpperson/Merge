@@ -82,6 +82,7 @@
             this.Controls.Add(this.lblBestLabel);
             this.Controls.Add(this.lblScoreLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Merge";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);

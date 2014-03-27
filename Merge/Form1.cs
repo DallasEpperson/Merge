@@ -61,7 +61,8 @@ namespace Merge
                         Width = _settings.TileWidth,
                         Height = _settings.TileWidth,
                         Left = leftPadding + x * (_settings.TileWidth + widthPadding),
-                        Top = topPadding + y * (_settings.TileWidth + heightPadding)
+                        Top = topPadding + y * (_settings.TileWidth + heightPadding),
+                        Font = new Font(FontFamily.GenericSansSerif, 18)
                     };
 
                     this.Controls.Add(_gridButtons[x, y]);
